@@ -1,6 +1,6 @@
 .to-do-list {
   font-family: Arial, sans-serif;
-  min-width: 400px;
+  max-width: 400px;
   border: solid 1px gray;
   padding: 20px;
   border-radius: 10px;
@@ -10,10 +10,8 @@
   justify-content: center;
   background-color: #055454;
   color: white;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  margin: auto;
+  margin-top: 50px;
 }
 
 .to-do-list h1 {
